@@ -1,0 +1,14 @@
+name: training_environment
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - conda-forge::jupyterlab
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - tensorflow==2.10
+      - tensorflow_hub

@@ -1,0 +1,10 @@
+name: tfjs_converter_environment
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - conda-forge::jupyterlab
+  - pip
+  - pip:
+      - tensorflowjs
